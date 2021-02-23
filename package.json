@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
+  "engines": {
+    "node": "10.x"
+  },
   "scripts": {
     "dev": "ts-node-dev src/index.ts",
     "build": "tsc && cp -rf package.json dist/package.json && cp -rf transaction.sql dist/transaction.sql",
