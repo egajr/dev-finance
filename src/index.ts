@@ -1,8 +1,8 @@
-import { app } from './app'
-import { AddressInfo } from 'net'
-// import * as dotenv from "dotenv";
+import { app } from './app';
+import { AddressInfo } from 'net';
+import dotenv from 'dotenv';
 
-// dotenv.config({ path: './config/.env' });
+dotenv.config();
 
 app.set('port', process.env.PORT || 3333)
 

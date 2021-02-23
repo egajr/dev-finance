@@ -1,6 +1,3 @@
-import * as dotenv from "dotenv";
-dotenv.config({ path: './config/.env' });
-
 module.exports = {
   "type": "mysql",
   "url": process.env.CLEARDB_DATABASE_URL,
